@@ -1,0 +1,253 @@
+{
+  "reading": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "What does Emma want to do?",
+      "context": "Hi Sam, I'm going to the cinema tonight. Do you want to come? The film starts at 7 pm. Emma",
+      "options": [
+        "Go to the cinema",
+        "Go shopping",
+        "Go to a restaurant",
+        "Go to the park"
+      ],
+      "answer": 0,
+      "explanation": "Emma在信息中说'I'm going to the cinema tonight'（我今晚要去电影院），所以她想去看电影。"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Where is the party?",
+      "context": "Dear Students, The end-of-term party will be in the school hall on Friday at 5 pm. Please bring some food to share. Mrs. Brown",
+      "options": [
+        "In the classroom",
+        "In the school hall",
+        "In the gym",
+        "In the library"
+      ],
+      "answer": 1,
+      "explanation": "文中明确说'The end-of-term party will be in the school hall'（期末派对将在学校礼堂举行）。"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "What time does the swimming pool open on Saturday?",
+      "context": "SUNSWIMMING POOL\nMonday-Friday: 6 am - 10 pm\nSaturday-Sunday: 8 am - 8 pm",
+      "options": [
+        "6 am",
+        "8 am",
+        "10 pm",
+        "8 pm"
+      ],
+      "answer": 1,
+      "explanation": "根据时间表，周六周日(Saturday-Sunday)开放时间是8 am - 8 pm，所以周六早上8点开门。"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "How much does the cake cost?",
+      "context": "MUM'S BAKERY\nBread: $2.50\nCake: $8.00\nCookies: $3.00\nBuy 2 cakes and get 10% off!",
+      "options": [
+        "$2.50",
+        "$3.00",
+        "$8.00",
+        "$10.00"
+      ],
+      "answer": 2,
+      "explanation": "价目表显示Cake的价格是$8.00。买两个才有折扣，题目只问一个蛋糕的价格。"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "What should Peter bring to the picnic?",
+      "context": "To: Peter\nFrom: Lisa\nHi Peter! Can you bring some drinks to the picnic tomorrow? I'll make sandwiches. Thanks!",
+      "options": [
+        "Sandwiches",
+        "Drinks",
+        "Fruit",
+        "Cakes"
+      ],
+      "answer": 1,
+      "explanation": "Lisa在信息中问'Can you bring some drinks'（你能带些饮料吗），所以Peter应该带饮料。"
+    }
+  ],
+  "vocabulary_quiz": [
+    {
+      "id": 101,
+      "type": "translation",
+      "question": "The opposite of 'expensive' is _____.",
+      "options": [
+        "big",
+        "cheap",
+        "new",
+        "fast"
+      ],
+      "answer": 1,
+      "explanation": "expensive（昂贵的）的反义词是cheap（便宜的）。",
+      "wordId": 38
+    },
+    {
+      "id": 102,
+      "type": "translation",
+      "question": "'I'm very _____. I want to eat something now.'",
+      "options": [
+        "tired",
+        "thirsty",
+        "hungry",
+        "happy"
+      ],
+      "answer": 2,
+      "explanation": "句中说'I want to eat something'（我想吃东西），说明是饿了（hungry）。",
+      "wordId": 29
+    },
+    {
+      "id": 103,
+      "type": "translation",
+      "question": "'Please _____ the window. It's very hot in here.'",
+      "options": [
+        "close",
+        "open",
+        "clean",
+        "watch"
+      ],
+      "answer": 1,
+      "explanation": "句中说'It's very hot'（很热），所以应该打开（open）窗户。",
+      "wordId": null
+    },
+    {
+      "id": 104,
+      "type": "translation",
+      "question": "What is '早餐' in English?",
+      "options": [
+        "lunch",
+        "dinner",
+        "breakfast",
+        "supper"
+      ],
+      "answer": 2,
+      "explanation": "早餐的英文是breakfast。lunch是午餐，dinner是晚餐。",
+      "wordId": 10
+    },
+    {
+      "id": 105,
+      "type": "translation",
+      "question": "'My father's brother is my _____.'",
+      "options": [
+        "cousin",
+        "uncle",
+        "nephew",
+        "grandfather"
+      ],
+      "answer": 1,
+      "explanation": "父亲的兄弟是叔叔/伯伯，英文是uncle。",
+      "wordId": null
+    },
+    {
+      "id": 106,
+      "type": "translation",
+      "question": "The weather is _____. There are many clouds in the sky.",
+      "options": [
+        "sunny",
+        "rainy",
+        "cloudy",
+        "windy"
+      ],
+      "answer": 2,
+      "explanation": "句中说'There are many clouds'（有很多云），所以天气是多云的（cloudy）。",
+      "wordId": 22
+    },
+    {
+      "id": 107,
+      "type": "translation",
+      "question": "'_____ morning! How are you today?'",
+      "options": [
+        "Good",
+        "Nice",
+        "Fine",
+        "Great"
+      ],
+      "answer": 0,
+      "explanation": "早上好的固定表达是'Good morning!'",
+      "wordId": null
+    },
+    {
+      "id": 108,
+      "type": "translation",
+      "question": "'I like to _____ books in my free time.'",
+      "options": [
+        "watch",
+        "listen",
+        "read",
+        "write"
+      ],
+      "answer": 2,
+      "explanation": "读书的动词是read books。watch是观看，listen是听。",
+      "wordId": 45
+    },
+    {
+      "id": 109,
+      "type": "translation",
+      "question": "'The exam was very _____. I couldn't answer many questions.'",
+      "options": [
+        "easy",
+        "difficult",
+        "interesting",
+        "boring"
+      ],
+      "answer": 1,
+      "explanation": "句中说'couldn't answer many questions'（答不出很多问题），说明考试很难（difficult）。",
+      "wordId": 40
+    },
+    {
+      "id": 110,
+      "type": "translation",
+      "question": "What is 'beautiful' in Chinese?",
+      "options": [
+        "高兴的",
+        "美丽的",
+        "有趣的",
+        "重要的"
+      ],
+      "answer": 1,
+      "explanation": "beautiful的意思是美丽的。",
+      "wordId": 25
+    }
+  ],
+  "fill_blank": [
+    {
+      "id": 201,
+      "type": "fill_blank",
+      "question": "Complete: My mother's sister is my _____.",
+      "answer": "aunt",
+      "explanation": "母亲的姐妹是阿姨/姑姑，英文是aunt。"
+    },
+    {
+      "id": 202,
+      "type": "fill_blank",
+      "question": "Complete: The day after Monday is _____.",
+      "answer": "Tuesday",
+      "explanation": "Monday（周一）之后的一天是Tuesday（周二）。"
+    },
+    {
+      "id": 203,
+      "type": "fill_blank",
+      "question": "Complete: There are seven days in a _____.",
+      "answer": "week",
+      "explanation": "一周（week）有七天。"
+    },
+    {
+      "id": 204,
+      "type": "fill_blank",
+      "question": "Complete: December is the _____ month of the year.",
+      "answer": "twelfth",
+      "explanation": "十二月是一年中的第十二个月。twelfth是twelve的序数词。"
+    },
+    {
+      "id": 205,
+      "type": "fill_blank",
+      "question": "Complete: We use our _____ to see.",
+      "answer": "eyes",
+      "explanation": "我们用眼睛（eyes）来看东西。"
+    }
+  ]
+}
