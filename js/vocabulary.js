@@ -1,3 +1,15 @@
+const Speech = {
+  speak(text, lang = 'en-US') {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+};
+
 const Vocabulary = {
   currentWord: null,
   currentIndex: 0,
@@ -52,7 +64,12 @@ const Vocabulary = {
         ${words.map((word, idx) => `
           <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md transition cursor-pointer" onclick="Vocabulary.showWordDetail(${word.id})">
             <div class="flex justify-between items-start mb-2">
-              <span class="text-lg font-bold text-blue-600">${word.english}</span>
+              <div class="flex items-center gap-2" onclick="event.stopPropagation()">
+                <span class="text-lg font-bold text-blue-600">${word.english}</span>
+                <button onclick="Speech.speak('${word.english}')" class="text-blue-400 hover:text-blue-600 transition" title="播放发音">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 3.5a.75.75 0 00-1.264-.546L5.203 6H3.5A1.5 1.5 0 002 7.5v5A1.5 1.5 0 003.5 14h1.703l3.533 3.046A.75.75 0 0010 16.5v-13zM14.91 5.91a.75.75 0 011.06 0 7 7 0 010 9.9.75.75 0 11-1.06-1.06 5.5 5.5 0 000-7.78.75.75 0 010-1.06z"/></svg>
+                </button>
+              </div>
               <span class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">${word.category}</span>
             </div>
             <div class="text-gray-500 text-sm mb-1">${word.phonetic}</div>
@@ -83,7 +100,12 @@ const Vocabulary = {
         </div>
         <div class="bg-white rounded-xl shadow-lg p-6">
           <div class="text-center mb-6">
-            <div class="text-3xl font-bold text-blue-600 mb-2">${word.english}</div>
+            <div class="flex items-center justify-center gap-3 mb-2">
+              <span class="text-3xl font-bold text-blue-600">${word.english}</span>
+              <button onclick="Speech.speak('${word.english}')" class="text-blue-400 hover:text-blue-600 transition" title="播放发音">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 3.5a.75.75 0 00-1.264-.546L5.203 6H3.5A1.5 1.5 0 002 7.5v5A1.5 1.5 0 003.5 14h1.703l3.533 3.046A.75.75 0 0010 16.5v-13zM14.91 5.91a.75.75 0 011.06 0 7 7 0 010 9.9.75.75 0 11-1.06-1.06 5.5 5.5 0 000-7.78.75.75 0 010-1.06z"/></svg>
+              </button>
+            </div>
             <div class="text-gray-500">${word.phonetic}</div>
           </div>
           
@@ -235,7 +257,12 @@ const Vocabulary = {
     modal.innerHTML = `
       <div class="bg-white rounded-xl shadow-2xl p-6 max-w-md mx-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-blue-600 mb-2">${word.english}</div>
+          <div class="flex items-center justify-center gap-3 mb-2">
+            <span class="text-3xl font-bold text-blue-600">${word.english}</span>
+            <button onclick="Speech.speak('${word.english}')" class="text-blue-400 hover:text-blue-600 transition" title="播放发音">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 3.5a.75.75 0 00-1.264-.546L5.203 6H3.5A1.5 1.5 0 002 7.5v5A1.5 1.5 0 003.5 14h1.703l3.533 3.046A.75.75 0 0010 16.5v-13zM14.91 5.91a.75.75 0 011.06 0 7 7 0 010 9.9.75.75 0 11-1.06-1.06 5.5 5.5 0 000-7.78.75.75 0 010-1.06z"/></svg>
+            </button>
+          </div>
           <div class="text-gray-500 mb-4">${word.phonetic}</div>
           <div class="text-2xl font-medium text-gray-800 mb-4">${word.chinese}</div>
           <div class="bg-gray-50 rounded-lg p-4 text-left mb-4">
@@ -243,7 +270,12 @@ const Vocabulary = {
             <div class="text-gray-700">${word.explanation}</div>
           </div>
           <div class="bg-blue-50 rounded-lg p-4 text-left mb-4">
-            <div class="text-sm text-blue-500 mb-1">例句 Example:</div>
+            <div class="flex items-center justify-between mb-1">
+              <span class="text-sm text-blue-500">例句 Example:</span>
+              <button onclick="Speech.speak(\`${word.example.replace(/`/g, "'")}\`)" class="text-blue-400 hover:text-blue-600 transition" title="播放例句">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 3.5a.75.75 0 00-1.264-.546L5.203 6H3.5A1.5 1.5 0 002 7.5v5A1.5 1.5 0 003.5 14h1.703l3.533 3.046A.75.75 0 0010 16.5v-13zM14.91 5.91a.75.75 0 011.06 0 7 7 0 010 9.9.75.75 0 11-1.06-1.06 5.5 5.5 0 000-7.78.75.75 0 010-1.06z"/></svg>
+              </button>
+            </div>
             <div class="text-gray-700">${word.example}</div>
           </div>
           <button onclick="this.closest('.fixed').remove()" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
