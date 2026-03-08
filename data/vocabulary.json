@@ -1,0 +1,454 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "english": "apple",
+      "chinese": "苹果",
+      "phonetic": "/ˈæpl/",
+      "explanation": "a round fruit with red, green or yellow skin",
+      "example": "I eat an apple every day.",
+      "category": "food"
+    },
+    {
+      "id": 2,
+      "english": "book",
+      "chinese": "书",
+      "phonetic": "/bʊk/",
+      "explanation": "a set of printed pages fastened together inside a cover",
+      "example": "She is reading a book.",
+      "category": "education"
+    },
+    {
+      "id": 3,
+      "english": "school",
+      "chinese": "学校",
+      "phonetic": "/skuːl/",
+      "explanation": "a place where children go to learn",
+      "example": "I go to school by bus.",
+      "category": "education"
+    },
+    {
+      "id": 4,
+      "english": "family",
+      "chinese": "家庭",
+      "phonetic": "/ˈfæməli/",
+      "explanation": "a group of people who are related to each other",
+      "example": "My family has four people.",
+      "category": "people"
+    },
+    {
+      "id": 5,
+      "english": "friend",
+      "chinese": "朋友",
+      "phonetic": "/frend/",
+      "explanation": "a person you know well and like",
+      "example": "Tom is my best friend.",
+      "category": "people"
+    },
+    {
+      "id": 6,
+      "english": "water",
+      "chinese": "水",
+      "phonetic": "/ˈwɔːtər/",
+      "explanation": "a clear liquid that has no color or taste",
+      "example": "Please give me some water.",
+      "category": "food"
+    },
+    {
+      "id": 7,
+      "english": "house",
+      "chinese": "房子",
+      "phonetic": "/haʊs/",
+      "explanation": "a building where people live",
+      "example": "We live in a big house.",
+      "category": "places"
+    },
+    {
+      "id": 8,
+      "english": "teacher",
+      "chinese": "老师",
+      "phonetic": "/ˈtiːtʃər/",
+      "explanation": "a person who teaches in a school",
+      "example": "My teacher is very kind.",
+      "category": "people"
+    },
+    {
+      "id": 9,
+      "english": "student",
+      "chinese": "学生",
+      "phonetic": "/ˈstuːdnt/",
+      "explanation": "a person who is learning at a school",
+      "example": "I am a student.",
+      "category": "people"
+    },
+    {
+      "id": 10,
+      "english": "breakfast",
+      "chinese": "早餐",
+      "phonetic": "/ˈbrekfəst/",
+      "explanation": "the first meal of the day",
+      "example": "I have breakfast at 7 o'clock.",
+      "category": "food"
+    },
+    {
+      "id": 11,
+      "english": "lunch",
+      "chinese": "午餐",
+      "phonetic": "/lʌntʃ/",
+      "explanation": "a meal eaten in the middle of the day",
+      "example": "What did you have for lunch?",
+      "category": "food"
+    },
+    {
+      "id": 12,
+      "english": "dinner",
+      "chinese": "晚餐",
+      "phonetic": "/ˈdɪnər/",
+      "explanation": "the main meal of the day, usually eaten in the evening",
+      "example": "We have dinner at 6 pm.",
+      "category": "food"
+    },
+    {
+      "id": 13,
+      "english": "morning",
+      "chinese": "早晨",
+      "phonetic": "/ˈmɔːrnɪŋ/",
+      "explanation": "the early part of the day, before noon",
+      "example": "Good morning! How are you?",
+      "category": "time"
+    },
+    {
+      "id": 14,
+      "english": "afternoon",
+      "chinese": "下午",
+      "phonetic": "/ˌæftərˈnuːn/",
+      "explanation": "the time between noon and evening",
+      "example": "I play football in the afternoon.",
+      "category": "time"
+    },
+    {
+      "id": 15,
+      "english": "evening",
+      "chinese": "傍晚",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "explanation": "the time between afternoon and night",
+      "example": "I watch TV in the evening.",
+      "category": "time"
+    },
+    {
+      "id": 16,
+      "english": "weekend",
+      "chinese": "周末",
+      "phonetic": "/ˈwiːkend/",
+      "explanation": "Saturday and Sunday, the days when many people do not work",
+      "example": "What do you do on weekends?",
+      "category": "time"
+    },
+    {
+      "id": 17,
+      "english": "holiday",
+      "chinese": "假期",
+      "phonetic": "/ˈhɑːlədeɪ/",
+      "explanation": "a time when you do not go to work or school",
+      "example": "We went to the beach on holiday.",
+      "category": "time"
+    },
+    {
+      "id": 18,
+      "english": "birthday",
+      "chinese": "生日",
+      "phonetic": "/ˈbɜːrθdeɪ/",
+      "explanation": "the day when you were born",
+      "example": "Happy birthday to you!",
+      "category": "events"
+    },
+    {
+      "id": 19,
+      "english": "weather",
+      "chinese": "天气",
+      "phonetic": "/ˈweðər/",
+      "explanation": "the state of the air at a particular place and time",
+      "example": "The weather is nice today.",
+      "category": "nature"
+    },
+    {
+      "id": 20,
+      "english": "sunny",
+      "chinese": "晴朗的",
+      "phonetic": "/ˈsʌni/",
+      "explanation": "bright with sunlight",
+      "example": "It's a sunny day.",
+      "category": "nature"
+    },
+    {
+      "id": 21,
+      "english": "rainy",
+      "chinese": "下雨的",
+      "phonetic": "/ˈreɪni/",
+      "explanation": "having a lot of rain",
+      "example": "It's rainy outside. Take an umbrella.",
+      "category": "nature"
+    },
+    {
+      "id": 22,
+      "english": "cloudy",
+      "chinese": "多云的",
+      "phonetic": "/ˈklaʊdi/",
+      "explanation": "covered with clouds",
+      "example": "It's cloudy today.",
+      "category": "nature"
+    },
+    {
+      "id": 23,
+      "english": "cold",
+      "chinese": "冷的",
+      "phonetic": "/kəʊld/",
+      "explanation": "having a low temperature",
+      "example": "It's very cold in winter.",
+      "category": "nature"
+    },
+    {
+      "id": 24,
+      "english": "hot",
+      "chinese": "热的",
+      "phonetic": "/hɑːt/",
+      "explanation": "having a high temperature",
+      "example": "It's hot in summer.",
+      "category": "nature"
+    },
+    {
+      "id": 25,
+      "english": "beautiful",
+      "chinese": "美丽的",
+      "phonetic": "/ˈbjuːtɪfl/",
+      "explanation": "very good to look at",
+      "example": "The flower is beautiful.",
+      "category": "adjectives"
+    },
+    {
+      "id": 26,
+      "english": "happy",
+      "chinese": "开心的",
+      "phonetic": "/ˈhæpi/",
+      "explanation": "feeling or showing pleasure",
+      "example": "I'm so happy to see you!",
+      "category": "adjectives"
+    },
+    {
+      "id": 27,
+      "english": "sad",
+      "chinese": "伤心的",
+      "phonetic": "/sæd/",
+      "explanation": "not happy",
+      "example": "She looks sad today.",
+      "category": "adjectives"
+    },
+    {
+      "id": 28,
+      "english": "tired",
+      "chinese": "疲惫的",
+      "phonetic": "/ˈtaɪərd/",
+      "explanation": "feeling that you want to sleep or rest",
+      "example": "I'm tired after running.",
+      "category": "adjectives"
+    },
+    {
+      "id": 29,
+      "english": "hungry",
+      "chinese": "饥饿的",
+      "phonetic": "/ˈhʌŋɡri/",
+      "explanation": "wanting to eat something",
+      "example": "I'm hungry. Let's eat.",
+      "category": "adjectives"
+    },
+    {
+      "id": 30,
+      "english": "thirsty",
+      "chinese": "口渴的",
+      "phonetic": "/ˈθɜːrsti/",
+      "explanation": "wanting to drink something",
+      "example": "I'm thirsty. Can I have some water?",
+      "category": "adjectives"
+    },
+    {
+      "id": 31,
+      "english": "big",
+      "chinese": "大的",
+      "phonetic": "/bɪɡ/",
+      "explanation": "large in size",
+      "example": "Elephants are big animals.",
+      "category": "adjectives"
+    },
+    {
+      "id": 32,
+      "english": "small",
+      "chinese": "小的",
+      "phonetic": "/smɔːl/",
+      "explanation": "not large in size",
+      "example": "The mouse is a small animal.",
+      "category": "adjectives"
+    },
+    {
+      "id": 33,
+      "english": "new",
+      "chinese": "新的",
+      "phonetic": "/nuː/",
+      "explanation": "not old; recently made or bought",
+      "example": "I got a new bike.",
+      "category": "adjectives"
+    },
+    {
+      "id": 34,
+      "english": "old",
+      "chinese": "旧的；年老的",
+      "phonetic": "/əʊld/",
+      "explanation": "not new; having lived for a long time",
+      "example": "This is an old book.",
+      "category": "adjectives"
+    },
+    {
+      "id": 35,
+      "english": "fast",
+      "chinese": "快的",
+      "phonetic": "/fæst/",
+      "explanation": "moving or doing something quickly",
+      "example": "The car is very fast.",
+      "category": "adjectives"
+    },
+    {
+      "id": 36,
+      "english": "slow",
+      "chinese": "慢的",
+      "phonetic": "/sləʊ/",
+      "explanation": "not moving or doing something quickly",
+      "example": "The turtle is slow.",
+      "category": "adjectives"
+    },
+    {
+      "id": 37,
+      "english": "expensive",
+      "chinese": "昂贵的",
+      "phonetic": "/ɪkˈspensɪv/",
+      "explanation": "costing a lot of money",
+      "example": "This watch is very expensive.",
+      "category": "adjectives"
+    },
+    {
+      "id": 38,
+      "english": "cheap",
+      "chinese": "便宜的",
+      "phonetic": "/tʃiːp/",
+      "explanation": "not costing a lot of money",
+      "example": "This shirt is cheap.",
+      "category": "adjectives"
+    },
+    {
+      "id": 39,
+      "english": "easy",
+      "chinese": "容易的",
+      "phonetic": "/ˈiːzi/",
+      "explanation": "not difficult",
+      "example": "This question is easy.",
+      "category": "adjectives"
+    },
+    {
+      "id": 40,
+      "english": "difficult",
+      "chinese": "困难的",
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "explanation": "not easy; hard to do",
+      "example": "The exam was difficult.",
+      "category": "adjectives"
+    },
+    {
+      "id": 41,
+      "english": "go",
+      "chinese": "去",
+      "phonetic": "/ɡəʊ/",
+      "explanation": "to move or travel somewhere",
+      "example": "I go to school every day.",
+      "category": "verbs"
+    },
+    {
+      "id": 42,
+      "english": "come",
+      "chinese": "来",
+      "phonetic": "/kʌm/",
+      "explanation": "to move towards the speaker",
+      "example": "Come here, please.",
+      "category": "verbs"
+    },
+    {
+      "id": 43,
+      "english": "eat",
+      "chinese": "吃",
+      "phonetic": "/iːt/",
+      "explanation": "to put food into your mouth and swallow it",
+      "example": "I eat breakfast at 7 am.",
+      "category": "verbs"
+    },
+    {
+      "id": 44,
+      "english": "drink",
+      "chinese": "喝",
+      "phonetic": "/drɪŋk/",
+      "explanation": "to take liquid into your body through your mouth",
+      "example": "I drink milk every morning.",
+      "category": "verbs"
+    },
+    {
+      "id": 45,
+      "english": "read",
+      "chinese": "阅读",
+      "phonetic": "/riːd/",
+      "explanation": "to look at words or pictures and understand them",
+      "example": "I like to read books.",
+      "category": "verbs"
+    },
+    {
+      "id": 46,
+      "english": "write",
+      "chinese": "写",
+      "phonetic": "/raɪt/",
+      "explanation": "to make letters or numbers with a pen or pencil",
+      "example": "Please write your name here.",
+      "category": "verbs"
+    },
+    {
+      "id": 47,
+      "english": "speak",
+      "chinese": "说（某种语言）",
+      "phonetic": "/spiːk/",
+      "explanation": "to say words; to talk to someone",
+      "example": "I can speak English.",
+      "category": "verbs"
+    },
+    {
+      "id": 48,
+      "english": "listen",
+      "chinese": "听",
+      "phonetic": "/ˈlɪsn/",
+      "explanation": "to try to hear something",
+      "example": "Listen to the teacher carefully.",
+      "category": "verbs"
+    },
+    {
+      "id": 49,
+      "english": "watch",
+      "chinese": "观看",
+      "phonetic": "/wɑːtʃ/",
+      "explanation": "to look at something for a period of time",
+      "example": "I watch TV after dinner.",
+      "category": "verbs"
+    },
+    {
+      "id": 50,
+      "english": "play",
+      "chinese": "玩；演奏",
+      "phonetic": "/pleɪ/",
+      "explanation": "to do something for enjoyment; to take part in a game",
+      "example": "I play football with my friends.",
+      "category": "verbs"
+    }
+  ]
+}
